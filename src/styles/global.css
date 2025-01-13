@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("./fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf")
+    format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("./fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.otf")
+    format("truetype");
+  font-weight: normal;
+}
+
+body {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
